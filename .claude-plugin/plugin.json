@@ -1,0 +1,23 @@
+{
+  "name": "business-plan-writer",
+  "version": "1.0.0",
+  "description": "创业计划书自动生成工具，支持规范文件检测、市场分析(TAM/SAM/SOM)、用户画像、商业模式画布、SWOT分析、真实数据引用",
+  "author": {
+    "name": "ZhuoXiaoJun0217",
+    "url": "https://github.com/ZhuoXiaoJun0217"
+  },
+  "homepage": "https://github.com/ZhuoXiaoJun0217/business-plan-writer",
+  "repository": "https://github.com/ZhuoXiaoJun0217/business-plan-writer",
+  "license": "MIT",
+  "keywords": [
+    "business-plan",
+    "entrepreneurship",
+    "market-analysis",
+    "TAM-SAM-SOM",
+    "SWOT",
+    "BMC",
+    "academic-writing",
+    "创业计划书",
+    "商业计划书"
+  ]
+}

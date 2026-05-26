@@ -1,0 +1,20 @@
+{
+  "name": "business-plan-writer-marketplace",
+  "description": "创业计划书写作工具市场 — 由 ZhuoXiaoJun0217 维护",
+  "author": {
+    "name": "ZhuoXiaoJun0217",
+    "url": "https://github.com/ZhuoXiaoJun0217"
+  },
+  "plugins": [
+    {
+      "name": "business-plan-writer",
+      "description": "创业计划书自动生成工具：规范检测 → 市场分析(TAM/SAM/SOM/BMC/SWOT) → 技术/服务方案 → 真实数据引用 → 学术HTML输出",
+      "author": {
+        "name": "ZhuoXiaoJun0217"
+      },
+      "source": "./",
+      "category": "writing",
+      "homepage": "https://github.com/ZhuoXiaoJun0217/business-plan-writer"
+    }
+  ]
+}
