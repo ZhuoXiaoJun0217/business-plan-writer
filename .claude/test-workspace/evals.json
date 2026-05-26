@@ -1,0 +1,52 @@
+{
+  "skill_name": "business-plan-writer",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "with-requirements-and-direction",
+      "prompt": "我要写一份创业计划书，作为创业学课程作业。我的项目是"AI驱动的校园二手书交易平台——书巢BookNest"。老师给了规范文件放在项目文件夹里。请帮我完成这份创业计划书。",
+      "expected_output": "完整的创业计划书HTML，包含规范文件要求的所有章节，真实市场数据与URL引用，GB/T 7714学术引用格式，学术报告风格HTML输出。",
+      "files": ["创业计划书规范要求.docx"],
+      "assertions": [
+        "规范文件被正确检测和加载",
+        "Step 1深入挖掘用户想法",
+        "Step 1.5正确推荐设计风格（教育/平台类 → Editorial/Bento等）",
+        "Step 2产出TAM/SAM/SOM、用户画像、竞争分析、商业模式画布、SWOT",
+        "Step 3判断为技术型项目并执行四阶段技术方案",
+        "Step 4搜索真实市场数据并记录URL",
+        "Step 5生成包含所有规范章节的HTML",
+        "HTML中数据引用有真实URL",
+        "HTML中有GB/T 7714格式参考文献",
+        "HTML有封面、目录、页眉页脚、打印友好CSS"
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "without-requirements-no-direction",
+      "prompt": "我需要写一个创业计划书，这是课程作业。但是老师没有给具体要求，我也没有什么特别的想法。你能帮我吗？",
+      "expected_output": "采用全球标准模板，给出3-5个有数据支撑的方向建议，用户选择后继续完整流程。",
+      "files": [],
+      "assertions": [
+        "Step 0正确降级为全球标准模板（Stanford/YC/Harvard/互联网+）",
+        "Step 1.4给出3-5个带数据支撑的方向建议",
+        "方向推荐数据来自WebSearch真实搜索",
+        "Step 1.1用AskUserQuestion让用户选择现状",
+        "用户选择方向后正常进入后续流程"
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "without-requirements-service-project",
+      "prompt": "帮我写一份创业计划书。我想做一个社区养老服务平台——'乐享晚年'，主要是线下的，提供居家养老服务、陪诊、老年食堂等。没有什么规范文件要求。",
+      "expected_output": "服务型项目的创业计划书HTML，Step 3正确跳过技术方案，产品打磨聚焦服务设计。",
+      "files": [],
+      "assertions": [
+        "Step 0正确降级为全球标准模板",
+        "Step 1.5推荐适合养老/健康类项目的设计风格（Natural Organic/Soft UI等）",
+        "Step 3正确判断为纯服务型并跳过技术方案",
+        "Step 2产品打磨指标服务设计而非技术指标",
+        "Step 5生成的HTML符合学术报告风格"
+      ]
+    }
+  ]
+}

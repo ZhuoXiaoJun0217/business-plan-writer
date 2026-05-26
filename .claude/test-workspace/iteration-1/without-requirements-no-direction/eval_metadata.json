@@ -1,0 +1,12 @@
+{
+  "eval_id": 2,
+  "eval_name": "without-requirements-no-direction",
+  "prompt": "我需要写一个创业计划书，这是课程作业。但是老师没有给具体要求，我也没有什么特别的想法。你能帮我吗？",
+  "assertions": [
+    "Step 0正确降级为全球标准模板（Stanford/YC/Harvard/互联网+）",
+    "Step 1.4给出3-5个带数据支撑的方向建议",
+    "方向推荐数据来自WebSearch真实搜索",
+    "Step 1.1用AskUserQuestion让用户选择现状",
+    "用户选择方向后正常进入后续流程"
+  ]
+}

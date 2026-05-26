@@ -1,0 +1,17 @@
+{
+  "eval_id": 1,
+  "eval_name": "with-requirements-and-direction",
+  "prompt": "我要写一份创业计划书，作为创业学课程作业。我的项目是"AI驱动的校园二手书交易平台——书巢BookNest"。老师给了规范文件放在项目文件夹里。请帮我完成这份创业计划书。",
+  "assertions": [
+    "规范文件被正确检测和加载",
+    "Step 1深入挖掘用户想法",
+    "Step 1.5正确推荐设计风格（教育/平台类 → Editorial/Bento等）",
+    "Step 2产出TAM/SAM/SOM、用户画像、竞争分析、商业模式画布、SWOT",
+    "Step 3判断为技术型项目并执行四阶段技术方案",
+    "Step 4搜索真实市场数据并记录URL",
+    "Step 5生成包含所有规范章节的HTML",
+    "HTML中数据引用有真实URL",
+    "HTML中有GB/T 7714格式参考文献",
+    "HTML有封面、目录、页眉页脚、打印友好CSS"
+  ]
+}

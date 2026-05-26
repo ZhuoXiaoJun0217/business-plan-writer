@@ -1,0 +1,12 @@
+{
+  "eval_id": 3,
+  "eval_name": "without-requirements-service-project",
+  "prompt": "帮我写一份创业计划书。我想做一个社区养老服务平台——'乐享晚年'，主要是线下的，提供居家养老服务、陪诊、老年食堂等。没有什么规范文件要求。",
+  "assertions": [
+    "Step 0正确降级为全球标准模板",
+    "Step 1.5推荐适合养老/健康类项目的设计风格（Natural Organic/Soft UI等）",
+    "Step 3正确判断为纯服务型并跳过技术方案",
+    "Step 2产品打磨指标服务设计而非技术指标",
+    "Step 5生成的HTML符合学术报告风格"
+  ]
+}

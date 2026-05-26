@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -l claude-hud-main.zip)",
+      "Bash(unzip -p claude-hud-main.zip claude-hud-main/.claude-plugin/plugin.json)",
+      "Bash(unzip -p claude-hud-main.zip claude-hud-main/.claude-plugin/marketplace.json)",
+      "Bash(grep -E \"\\\\.\\(md|json|ts|js\\)$\")",
+      "Bash(mkdir *)",
+      "Bash(cp -r __TRACKED_VAR__/.claude/plugins/marketplaces/claude-hud/dist __TRACKED_VAR__/.claude/plugins/cache/claude-hud/claude-hud/0.1.0/)",
+      "Bash(cp -r __TRACKED_VAR__/.claude/plugins/marketplaces/claude-hud/commands __TRACKED_VAR__/.claude/plugins/cache/claude-hud/claude-hud/0.1.0/)",
+      "Bash(cp -r __TRACKED_VAR__/.claude/plugins/marketplaces/claude-hud/.claude-plugin __TRACKED_VAR__/.claude/plugins/cache/claude-hud/claude-hud/0.1.0/)",
+      "Bash(cp __TRACKED_VAR__/.claude/plugins/marketplaces/claude-hud/package.json __TRACKED_VAR__/.claude/plugins/cache/claude-hud/claude-hud/0.1.0/)",
+      "Bash(node *)",
+      "Read(//c/Users/ASUS/.claude/**)",
+      "Read(//c/Users/ASUS/**)",
+      "Bash(pip install *)",
+      "Bash(npx pdf-parse *)",
+      "Bash(npm install *)",
+      "WebFetch(domain:github.com)",
+      "Bash(git clone *)",
+      "Bash(curl -s \"https://stylekit.top/api/styles\")",
+      "Bash(curl -sL \"https://stylekit.top/llms.txt\")",
+      "Bash(mkdir -p \"C:/Users/ASUS/Desktop/创业计划书/.claude/test-workspace/iteration-1/eval-1-with-requirements-and-direction/with_skill\")",
+      "Bash(mkdir -p \"C:/Users/ASUS/Desktop/创业计划书/.claude/test-workspace/iteration-1/eval-1-with-requirements-and-direction/without_skill\")"
+    ]
+  }
+}
