@@ -12,7 +12,7 @@ Step 1.5  → 设计风格选择（StyleKit 120+ 风格）
 Step 2    → 产品打磨 + 数据调研（分析即调研，AI 维护调研记忆）
 Step 3    → 技术方案（三引擎协作：superpowers + gstack + mattpocock）
 Step 4    → 撰写输出（对标学习 → 逐章撰写 → HTML 生成 → 去AI痕迹）
-Step 5    → 质量检查（答题板核查 + 深度审计 + 评分量规）
+Step 5    → 专业审核（投资人视角对抗性审查：31题/8维度/100分制 → 用户选择修改方式 → 迭代至 ≥85 分）
 Step 6    → 路演答辩（PPT大纲 + 答辩陈词 + 常见问题预演）
 ```
 
@@ -22,6 +22,7 @@ Step 6    → 路演答辩（PPT大纲 + 答辩陈词 + 常见问题预演）
 - **双标杆体系：** 路演对标（YC Pitch Deck）+ 完整计划书对标（SEC S-1 + 中国互联网企业上市文件）
 - **对标学习机制：** Step 4.0 要求 AI 撰写前搜索精读 3+ 标杆，写完后对标检查
 - **六步结构化工作流：** 从定位到答辩，每步有数据闸门和检查点
+- **对抗性专业审查：** Step 5 模拟投资人+教授视角，8 维度 31 题逐条挑刺，100 分制评分，用户自改或 AI 代改，循环迭代至投资级标准（≥85 分）
 - **20+ pm-skills 集成：** JTBD、TAM/SAM/SOM、PESTEL、用户画像、竞争分析、定价策略、获客渠道、路线图规划等
 - **三引擎协作：** superpowers（流程管控）+ gstack（工程评审）+ mattpocock（代码品质）
 - **Step Pre-flight：** 一次性检测并安装 7 类软依赖技能
@@ -78,13 +79,14 @@ Skill 自动激活，引导完成 Pre-flight → Step 6 完整流程。
 
 ```
 CUPL-business-plan-writer/
-├── SKILL.md                           # 主文件（1371行）
+├── SKILL.md                           # 主文件（1341行）
 ├── references/
 │   ├── product-analysis-playbook.md   # 20+技能调用表、定价/获客内置框架
 │   ├── three-engine-workflow.md       # 三引擎五阶段详细流程 + 安全门禁
 │   ├── deai-rules.md                  # 12条中文去AI痕迹规则 + 质量检查表
 │   ├── pitch-guide.md                 # 路演PPT结构、答辩陈词、常见问题预演
 │   ├── stylekit-styles.md             # 120+ 设计风格速查表
+│   ├── business-plan-review.md        # 8维度31题专业审查框架、100分制评分、迭代修改协议
 │   ├── gbt7714-format.md              # GB/T 7714 引用格式及示例
 │   └── cupl-thesis-format.md          # 中国政法大学论文格式规范
 └── README.md
