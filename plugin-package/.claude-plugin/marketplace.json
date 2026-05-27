@@ -1,0 +1,20 @@
+{
+  "name": "CUPL-business-plan-writer-marketplace",
+  "description": "CUPL 创业计划书写作工具市场 — 中国政法大学学生专用，由 ZhuoXiaoJun0217 维护",
+  "author": {
+    "name": "ZhuoXiaoJun0217",
+    "url": "https://github.com/ZhuoXiaoJun0217"
+  },
+  "plugins": [
+    {
+      "name": "CUPL-business-plan-writer",
+      "description": "CUPL 创业计划书撰写工具：规范检测 → 市场分析(TAM/SAM/SOM/BMC/SWOT) → 五阶段技术方案 → 真实数据引用 → 学术HTML输出 → AI去痕迹化",
+      "author": {
+        "name": "ZhuoXiaoJun0217"
+      },
+      "source": "./",
+      "category": "writing",
+      "homepage": "https://github.com/ZhuoXiaoJun0217/business-plan-writer"
+    }
+  ]
+}
